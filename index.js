@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express();
 
 let corsOptions = {
-    origin: 'http://localhost:5500',
+    origin: 'http://15.164.50.250:5500',
 }
 
 // mariaDB connect
